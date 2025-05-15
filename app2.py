@@ -4,6 +4,9 @@ import pandas as pd
 # Page Configuration
 st.set_page_config(page_title="معاشات خالدة", layout="wide")
 
+# Add Image at the Top
+st.image("schedule_converted.png", use_column_width=True)
+
 # Load the CSV file
 @st.cache_data
 def load_data():
